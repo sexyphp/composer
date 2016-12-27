@@ -1,0 +1,17 @@
+{
+    "name": "sexyphp/vendor",
+    "description": "The vendor library from sexyphp.",
+    "keywords": ["framework", "laravel"],
+    "license": "Apache2",
+    "type": "project",
+    "authors": [
+        {
+            "name": "liangfeng",
+            "email": "109231300&@qq.com"
+        }
+    ],
+    "require": {
+        "php": "5.6.*"
+    },
+    "minimum-stability": "beta"
+}
