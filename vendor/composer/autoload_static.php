@@ -18,6 +18,7 @@ class ComposerStaticIniteb1ff3fa9c160f059b6d7380077e3780
         'S' => 
         array (
             'Symfony\\Component\\Yaml\\' => 23,
+            'Sexyphp\\' => 8,
         ),
         'D' => 
         array (
@@ -39,6 +40,10 @@ class ComposerStaticIniteb1ff3fa9c160f059b6d7380077e3780
         'Symfony\\Component\\Yaml\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
+        ),
+        'Sexyphp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sexyphp/curl-http-request',
         ),
         'Doctrine\\Instantiator\\' => 
         array (

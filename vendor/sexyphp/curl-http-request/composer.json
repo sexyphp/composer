@@ -1,13 +1,13 @@
 {
-    "name": "sexyphp/common",
-    "description": "The Sexyphp common model.",
-    "keywords": ["sexyphp", "common model"],
+    "name": "sexyphp/curl-http-request",
+    "description": "The Sexyphp curl-http-request.",
+    "keywords": ["sexyphp", "curl","http request"],
     "type": "library",
     "license": "MIT",
     "homepage": "http://sexyphp.com",
     "support": {
         "issues": "https://github.com/sexyphp/composer/issues",
-        "source": "https://github.com/sexyphp/composer"
+        "source": "https://github.com/sexyphp/composer/tree/master/vendor/sexyphp"
     },
     "authors": [
         {
@@ -32,5 +32,6 @@
         "branch-alias": {
             "dev-master": "1.0-dev"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }

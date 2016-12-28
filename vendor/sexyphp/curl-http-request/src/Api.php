@@ -21,21 +21,17 @@ class Api
         $out = $this->curl->get($this->pathSuffix.$uri);
 
         if ($this->curl->http_code != 200) {
-            throw new \Exception("error: can't connect server");
+            throw new \Exception("error: can't connect server".$this->curl->http_code);
         }
         if(is_null(json_decode($out))){
-            if(env('APP_DEBUG')){
-                var_dump($out);
-            }
+            var_dump($out);
             throw new \Exception('error: is not json');
         }
 
         $json = $this->str2json($out);
 
         if ( !isset($json["code"])) {
-            if(env('APP_DEBUG')){
-                echo $out;
-            }
+            echo $out;
             throw new \Exception('error:not find json[code]');
 
         }
