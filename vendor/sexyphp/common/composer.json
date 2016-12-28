@@ -1,0 +1,36 @@
+{
+    "name": "sexyphp/common",
+    "description": "The Sexyphp common model.",
+    "keywords": ["sexyphp", "common model"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "http://sexyphp.com",
+    "support": {
+        "issues": "https://github.com/sexyphp/composer/issues",
+        "source": "https://github.com/sexyphp/composer"
+    },
+    "authors": [
+        {
+            "name": "LiangFeng",
+            "email": "1092313007@qq.com"
+        }
+    ],
+    "require": {
+        "php":                               "^5.3|^7.0"
+    },
+    "replace": {
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

@@ -1,5 +1,5 @@
 {
-    "name": "sexyphp/vendor",
+    "name": "sexyphp/composer",
     "description": "The vendor library from sexyphp.",
     "keywords": ["library", "Framework"],
     "license": "Apache2",

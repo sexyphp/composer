@@ -3,3 +3,5 @@ composer.lock
 composer快速入门_bak.md
 2composer.json快速操作.md
 .idea
+.DS_Store
+vendor/.DS_Store
