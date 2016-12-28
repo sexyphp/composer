@@ -1,5 +1,4 @@
 ##Composer构建自己的Composer包
-[![Composer Status](https://github.com/sexyphp/composer)](https://github.com/sexyphp/composer)
 
 简介:你或许使用过多个框架，或许自己开发过很多组件，多个类库，接口等。会不会因为切换框架而头疼，是不是还得修改你的代码，可能还得在某一框架里面重新包含这些文件进来。现在有两个工具可以帮助你解决这一问题,它们分别是Composer和PEAR.我们主要推荐Composer,并使用Composer开发基于psr系列规范化的组件，类库等。可以达到一次编程，随处可用的效果。当然，这是得注意一下PHP版本。下面我们将一一领略使用Composer创建自己的组件，并在Thinphp和Laravel中使用来证明为何说Composer一统PHP天下的时代来临。
 
